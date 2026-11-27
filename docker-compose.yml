@@ -8,5 +8,5 @@ services:
     volumes:
       - ./redis-config:/usr/local/etc/redis
 #    command: redis-server /usr/local/etc/redis/redis.conf
-    command: redis-server --protected-mode no /usr/local/etc/redis/redis.conf
+    command: redis-server /usr/local/etc/redis/redis.conf --protected-mode no
 #    restart: always
